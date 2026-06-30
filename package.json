@@ -1,0 +1,15 @@
+{
+  "name": "grammatik-odyssee-push-server",
+  "version": "1.0.0",
+  "description": "Push-Notification-Backend für Grammatik-Odyssee",
+  "main": "index.js",
+  "scripts": {
+    "generate-keys": "node generate-vapid-keys.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "web-push": "^3.6.7",
+    "cors": "^2.8.5"
+  }
+}
